@@ -16,7 +16,7 @@ const Navbar = ({
 	return (
 		<div className="navbar flex justify-between items-center container mx-auto py-8 flex-col lg:flex-row gap-5 lg:gap-0">
 			<h2 className="logo text-2xl font-bold lowercase italic">
-				Food<span className="text-rose-500">verse</span>
+				Food<span className="text-rose-500">maker</span>
 			</h2>
 			<form className="search-bar" onSubmit={searchHandler}>
 				<input
