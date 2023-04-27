@@ -75,7 +75,7 @@ const App = () => {
 
 	return (
 		<>
-			<div className="app min-h-screen bg-rose-50 text-gray-600 text-lg">
+			<div className="app min-h-screen bg-rose-50 text-gray-600 text-lg px-4">
 				<Navbar
 					savedItems={savedItems}
 					searchQuery={searchQuery}
