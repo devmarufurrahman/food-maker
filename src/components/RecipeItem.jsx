@@ -69,7 +69,7 @@ const RecipeItem = ({ favouriteHandler, savedItems }) => {
 							: durationCalc(recipe?.cooking_time / 60)}
 					</div>
 				</div>
-				<div className="btns flex gap-5">
+				<div className="btns flex flex-col md:flex-row gap-5">
 					<button
 						onClick={() => favouriteHandler(recipe?.id)}
 						className={`bg-gradient-to-br p-3 px-8 rounded-lg text-sm uppercase font-medium tracking-wider mt-2 inline-block shadow-md hover:shadow-lg  duration-300 ${
